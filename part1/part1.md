@@ -1,4 +1,4 @@
-## part1a
+## Part1a
 1. values added: 20. Because line 7 is executed with num1=10 and num2=10
 2. final result: 20. Because result can be accessed within the function, result in the if clause is the same as the result outside.
 3. values added: 20. Because result is defined and the sum of num1=10 and num2=10 is assigned to result.
@@ -6,7 +6,7 @@
 5. TypeError: Assignment to constant variable. Because result is declared using const, value of result cannot be changed.
 6. ReferenceError: discountedPrice is not defined. Because discountedPrice is declared in the for loop using let, it is not visible and accessible outside the for loop. Therefore, discountedPrice is not defined is outputed.
 
-## part1b
+## Part1b
 1. 3 is printed. Because i is declared using var, it is accessible and visible within the function. Therefore, the value of i when we get out of the for loop, which is the length of prices 3, is printed.
 2. 150 is printed. Because the discountedPrice is declared using var, it is accessible and visible within the function. line 13 will print the discountedPrice we calculated when i=2: discountedPrice=300*0.5=150.
 3. 150 is printed. Because finalPrice is declared using var, it is accessible and visible within the function. line 14 will print the finalPrice we calculated when i=2: finalPrice=Math.rount(150*100)/100=150
